@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PlaygroundDetails from './PlaygroundDetails'
 
-const test = "test";
 
-const testAgain = "Howdy do!";
+ReactDOM.render(<PlaygroundDetails />, document.getElementById('root'));
+
