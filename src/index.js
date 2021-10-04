@@ -1,11 +1,30 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import PlaygroundDetails from './PlaygroundDetails'
-import registerServiceWorker from './registerServiceWorker';
+import PlaygroundDetails from './PlaygroundDetails';
+import PlaygroundCard from './PlaygroundDetails';
 
 
+const App = () => {
+    return (
+        <div>
+            <div>
+                <PlaygroundCard>
+                    <PlaygroundDetails
+                        name="Shaw"
+                        location= "Tower Grove"
+                    />
+                </PlaygroundCard>
+                
+                    
+            
+            </div>
+            
+        </div>
+        
+    );
+};
 
-ReactDOM.render(<PlaygroundDetails />, document.getElementById('root')); registerServiceWorker();
+
+ReactDOM.render(<App />, document.getElementById('root')); 
 
