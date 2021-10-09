@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-const PlaygroundCard = (props) => {
+export const PlaygroundCard = (props) => {
     return (
-        <div className="content">
+        <div>
             {props.children}
         </div>
     );

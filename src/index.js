@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PlaygroundDetails from './PlaygroundDetails';
-import PlaygroundCard from './PlaygroundDetails';
+import PlaygroundCard from './PlaygroundCard';
 
 
 const App = () => {
@@ -12,12 +12,9 @@ const App = () => {
                 <PlaygroundCard>
                     <PlaygroundDetails
                         name="Shaw"
-                        location= "Tower Grove"
+                        location="Tower Grove"
                     />
                 </PlaygroundCard>
-                
-                    
-            
             </div>
             
         </div>
