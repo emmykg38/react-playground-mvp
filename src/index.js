@@ -11,8 +11,10 @@ const App = () => {
             <div>
                 <PlaygroundCard>
                     <PlaygroundDetails
-                        name="Shaw"
-                        location="Tower Grove"
+                        playgroundImg = "../public/tilles6.png/100px180"
+                        name="Tilles Park"
+                        location="Hampton and Fyler Avenues"
+                        neighborhood="North Hampton neighborhood, South City, St. Louis, MO"
                     />
                 </PlaygroundCard>
             </div>
