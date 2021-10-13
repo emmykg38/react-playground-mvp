@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PlaygroundDetails from './PlaygroundDetails';
 import PlaygroundCard from './PlaygroundCard';
-
+import images from '../playground-images';
 
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
             <div>
                 <PlaygroundCard>
                     <PlaygroundDetails
-                        playgroundImg = "../public/tilles6.png/100px180"
+                        playgroundImg = 'hi'
                         name="Tilles Park"
                         location="Hampton and Fyler Avenues"
                         neighborhood="North Hampton neighborhood, South City, St. Louis, MO"
