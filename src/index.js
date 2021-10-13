@@ -5,6 +5,7 @@ import PlaygroundDetails from './PlaygroundDetails';
 import PlaygroundCard from './PlaygroundCard';
 
 
+
 const App = () => {
     return (
         <div>
@@ -25,5 +26,7 @@ const App = () => {
 };
 
 
+
 ReactDOM.render(<App />, document.getElementById('root')); 
+
 
