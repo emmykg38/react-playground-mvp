@@ -3,7 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PlaygroundDetails from './PlaygroundDetails';
 import PlaygroundCard from './PlaygroundCard';
-import images from '../playground-images';
+import ccLakeUpper from './images/cclakeupper.jpg';
+import tilles from './images/tilles.jpg';
+import tillesPlayground from './images/tillesplayground.jpg';
 
 
 const App = () => {
@@ -12,10 +14,13 @@ const App = () => {
             <div>
                 <PlaygroundCard>
                     <PlaygroundDetails
-                        playgroundImg = 'hi'
+                        playgroundImg = {tillesPlayground}
                         name="Tilles Park"
                         location="Hampton and Fyler Avenues"
                         neighborhood="North Hampton neighborhood, South City, St. Louis, MO"
+                        listItemOne="Shady playground area"
+                        listItemTwo="Splashpad in the summer"
+                        listItemThree="Bathrooms nearby"
                     />
                 </PlaygroundCard>
             </div>
