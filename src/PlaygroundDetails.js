@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
+
 const PlaygroundDetails = (props) => {
     return (
         <Card style={{ width: '18rem' }}>
@@ -12,8 +13,7 @@ const PlaygroundDetails = (props) => {
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>
            {props.location}
-           <br></br>
-           <br></br>
+           <br />
            {props.neighborhood}
           </Card.Text>
           <br />
@@ -23,9 +23,12 @@ const PlaygroundDetails = (props) => {
             <ListGroupItem>{props.listItemTwo}</ListGroupItem>
             <ListGroupItem>{props.listItemThree}</ListGroupItem>
           </ListGroup>
-          <Button variant="primary">Click here for more details</Button>
-        </Card.Body>
-      </Card>
+          <Card.Link href={props.link}>{props.linkText}</Card.Link>
+          </Card.Body>
+          <Card.Body>
+            <Button variant="primary">Click here for more details</Button>
+          </Card.Body>
+        </Card>
     );
 
 };
