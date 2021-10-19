@@ -16,7 +16,7 @@ const creveCouerLakeLink = "https://www.google.com/maps/place/Creve+Coeur+Lake/@
 
 const App = () => {
     return (
-        <div>
+        <div style= {{ display: "inline-flex" }}>
             <div>
                 <PlaygroundCard>
                     <PlaygroundDetails
