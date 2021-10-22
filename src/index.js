@@ -3,8 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PlaygroundDetails from './PlaygroundDetails';
 import PlaygroundCard from './PlaygroundCard';
+import Navigation from './Navigation';
+import { Navbar } from 'react-bootstrap';
 import { Stack } from 'react-bootstrap';
-
 
 
 
@@ -13,9 +14,12 @@ const tillesMapLink = "https://www.google.com/maps/place/Tilles+Park/@38.6004652
 const creveCouerLakeLink = "https://www.google.com/maps/place/Creve+Coeur+Lake/@38.7154818,-90.4938074,15z/data=!3m1!4b1!4m5!3m4!1s0x87df2dca7a3cd231:0xbbbdc18bde2553a3!8m2!3d38.7161801!4d-90.4844505";
 
 
+
 const App = () => {
     return (
         <div>
+            <Navigation />
+            <div style= {{ display: "inline-flex" }}>
             <Stack direction = "horizontal" gap={2}>
             <div>
                 <PlaygroundCard>
