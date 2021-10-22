@@ -6,7 +6,7 @@ import { NavLink } from 'react-bootstrap';
 
 const Navigation = (props) => {
     return (
-        <Navbar>
+        <Navbar sticky="top" variant="dark" bg="dark">
                 <NavLink to="/about">
                     About
                 </NavLink>
