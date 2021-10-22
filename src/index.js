@@ -5,6 +5,7 @@ import PlaygroundDetails from './PlaygroundDetails';
 import PlaygroundCard from './PlaygroundCard';
 import Navigation from './Navigation';
 import { Navbar } from 'react-bootstrap';
+import { Stack } from 'react-bootstrap';
 
 
 
@@ -19,6 +20,8 @@ const App = () => {
         <div>
             <Navigation />
             <div style= {{ display: "inline-flex" }}>
+            <Stack direction = "horizontal" gap={2}>
+            <div>
                 <PlaygroundCard>
                     <PlaygroundDetails
                         playgroundImg = "/images/tillesplayground.jpg"
@@ -48,7 +51,7 @@ const App = () => {
                     />
                 </PlaygroundCard>
             </div>
-            
+            </Stack>
         </div>
         
     );
