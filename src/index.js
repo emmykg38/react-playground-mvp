@@ -53,7 +53,8 @@ const App = () => {
             </div>
             </Stack>
         </div>
-        
+    </div>
+
     );
 };
 
