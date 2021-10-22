@@ -6,7 +6,7 @@ import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
 const PlaygroundDetails = (props) => {
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card className="text-center" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={props.playgroundImg}/>
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
