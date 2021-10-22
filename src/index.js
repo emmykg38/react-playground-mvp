@@ -3,8 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PlaygroundDetails from './PlaygroundDetails';
 import PlaygroundCard from './PlaygroundCard';
-import ccLakeUpper from './images/cclakeupper.jpg';
-import tillesPlayground from './images/tillesplayground.jpg';
 import Navigation from './Navigation';
 import { Navbar } from 'react-bootstrap';
 
@@ -23,7 +21,7 @@ const App = () => {
             <div style= {{ display: "inline-flex" }}>
                 <PlaygroundCard>
                     <PlaygroundDetails
-                        playgroundImg = {tillesPlayground}
+                        playgroundImg = "/images/tillesplayground.jpg"
                         name="Tilles Park"
                         location="Hampton and Fyler Avenues"
                         neighborhood="North Hampton neighborhood in St. Louis, MO"
@@ -38,7 +36,7 @@ const App = () => {
             <div>
                 <PlaygroundCard>
                     <PlaygroundDetails
-                        playgroundImg = {ccLakeUpper}
+                        playgroundImg = "/images/cclakeupper.jpg"
                         name="Creve Couer Lake Memorial Park"
                         location="13725 Marine Ave."
                         neighborhood="Creve Couer, MO"

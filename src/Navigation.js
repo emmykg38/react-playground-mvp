@@ -7,7 +7,7 @@ import { NavLink } from 'react-bootstrap';
 const Navigation = (props) => {
     return (
         <Navbar>
-                <NavLink to="/about" title={ props.title}>
+                <NavLink to="/about">
                     About
                 </NavLink>
                 <NavLink to="/playgrounds">
