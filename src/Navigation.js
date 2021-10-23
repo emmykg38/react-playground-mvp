@@ -7,12 +7,18 @@ import { NavLink } from 'react-bootstrap';
 const Navigation = (props) => {
     return (
         <Navbar sticky="top" variant="dark" bg="dark">
-                <NavLink to="/about">
-                    About
-                </NavLink>
-                <NavLink to="/playgrounds">
-                    Playgrounds
-                </NavLink>
+            <NavLink to="/home">
+                Home
+            </NavLink>
+            <NavLink to="/about">
+                About
+            </NavLink>
+            <NavLink to="/playgrounds">
+                Playgrounds
+            </NavLink>
+            <NavLink to="/search">
+                Search
+            </NavLink>
         </Navbar>
     );
 }
