@@ -22,9 +22,9 @@ const deerCreekParkLink= "https://goo.gl/maps/urcHkYBxf8v3CTqR9";
 class App extends React.Component {
     render () {
         return (
-            <div className="card-list">
+            <div>
                 <Navigation />
-                <div className="card-list">
+                <div className="render-cards">
                     {/* <Stack direction = "horizontal" gap={2}> */}
                 <div>
                     <RenderPlaygroundCard>

@@ -1,12 +1,18 @@
 
-.card-list {
-    display: grid;
-    grid-template-columns: repeat(auto);
-    grid-row-gap: 50px;
-    
+.container {
+    width: 350px;
+    grid-template-columns: repeat(auto-fill, 200px);
 }
 
+.render-cards {
+    width: 350px;
+    grid-template-columns: repeat(auto-fill, 100px);
+}
 
-.playground-image {
-    width: 200px;
+.title {
+    text-align: center;
+}
+
+.location {
+    text-align: center;
 }
