@@ -4,10 +4,12 @@ import Button from 'react-bootstrap/Button';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
 
+// style={{ width: '18rem' }}
+
 const PlaygroundCardStructure = (props) => {
     return (
-        <Card className="text-center" style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={props.playgroundImg}/>
+        <Card className="text-center">
+        <Card.Img className="playground-image" variant="top" src={props.playgroundImg}/>
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>

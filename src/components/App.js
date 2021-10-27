@@ -16,14 +16,16 @@ const creveCouerLakeLink = "https://www.google.com/maps/place/Creve+Coeur+Lake/@
 const deerCreekParkLink= "https://goo.gl/maps/urcHkYBxf8v3CTqR9";
 
 
+// was in div under navigation
+// style= {{ display: "inline-flex" }}
 
 class App extends React.Component {
     render () {
         return (
-            <div>
+            <div className="card-list">
                 <Navigation />
-                <div style= {{ display: "inline-flex" }}>
-                    <Stack direction = "horizontal" gap={2}>
+                <div className="card-list">
+                    {/* <Stack direction = "horizontal" gap={2}> */}
                 <div>
                     <RenderPlaygroundCard>
                         <PlaygroundCardStructure
@@ -69,7 +71,7 @@ class App extends React.Component {
                         /> 
                         </RenderPlaygroundCard>
                 </div>
-                </Stack>
+                {/* </Stack> */}
                 </div>
             </div>
     

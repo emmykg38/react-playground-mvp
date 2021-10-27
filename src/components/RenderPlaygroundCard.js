@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './renderPlaygroundCard.css';
 
 
 
@@ -11,7 +12,7 @@ import ReactDOM from 'react-dom';
 
 const RenderPlaygroundCard = (props) => {
     return (
-        <div>
+        <div className="card-list">
             {props.children}
         </div>
     );

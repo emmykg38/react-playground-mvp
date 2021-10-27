@@ -1,0 +1,12 @@
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto);
+    grid-row-gap: 50px;
+    
+}
+
+
+.playground-image {
+    width: 200px;
+}
