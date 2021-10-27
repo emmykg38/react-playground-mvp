@@ -8,6 +8,7 @@ import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
 const PlaygroundCardStructure = (props) => {
     return (
+      <div className="container">
         <Card className="text-center">
         <Card.Img className="playground-image" variant="top" src={props.playgroundImg}/>
         <Card.Body>
@@ -30,6 +31,7 @@ const PlaygroundCardStructure = (props) => {
             <Button variant="primary">Click here for more details</Button>
           </Card.Body>
         </Card>
+      </div>
     );
 
 };
