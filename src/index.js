@@ -13,6 +13,8 @@ const tillesMapLink = "https://www.google.com/maps/place/Tilles+Park/@38.6004652
 
 const creveCouerLakeLink = "https://www.google.com/maps/place/Creve+Coeur+Lake/@38.7154818,-90.4938074,15z/data=!3m1!4b1!4m5!3m4!1s0x87df2dca7a3cd231:0xbbbdc18bde2553a3!8m2!3d38.7161801!4d-90.4844505";
 
+const deerCreekParkLink= "https://goo.gl/maps/urcHkYBxf8v3CTqR9";
+
 
 
 const App = () => {
@@ -20,7 +22,7 @@ const App = () => {
         <div>
             <Navigation />
             <div style= {{ display: "inline-flex" }}>
-            <Stack direction = "horizontal" gap={2}>
+                <Stack direction = "horizontal" gap={2}>
             <div>
                 <PlaygroundCard>
                     <PlaygroundDetails
@@ -31,7 +33,7 @@ const App = () => {
                         listItemOne="Shady playground area"
                         listItemTwo="Splashpad in the summer"
                         listItemThree="Bathrooms nearby"
-                        linkText= "get directions to Tilles Park"
+                        linkText= "Get directions to Tilles Park"
                         link = {tillesMapLink}
                     />
                 </PlaygroundCard>
@@ -46,12 +48,28 @@ const App = () => {
                         listItemOne="Sprawling lake with water activities"
                         listItemTwo="Ropes course for older children"
                         listItemThree="Four playgrounds on-site"
-                        linkText="get directions to Creve Couer Lake"
+                        linkText="Get directions to Creve Couer Lake"
                         link = {creveCouerLakeLink}
                     />
                 </PlaygroundCard>
             </div>
+            <div>
+                <PlaygroundCard>
+                    <PlaygroundDetails
+                        playgroundImg="/images/rocketplay3.jpg"
+                        name="Deer Creek Park Playground"
+                        location="3200 Laclede Station Rd."
+                        neighborhood="St. Louis County/ Maplewood"
+                        listItemOne='Known as "Rocket Playground"'
+                        listItemTwo="Ample ladders and climbing equipment"
+                        listItemThree="Geared towards older children."
+                        linkText="Get directions to Deer Creek Park"
+                        link= {deerCreekParkLink}
+                    /> 
+                    </PlaygroundCard>
+            </div>
             </Stack>
+            </div>
         </div>
     </div>
 
