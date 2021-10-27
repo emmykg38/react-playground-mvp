@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
 
-const PlaygroundDetails = (props) => {
+const PlaygroundCardStructure = (props) => {
     return (
         <Card className="text-center" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={props.playgroundImg}/>
@@ -32,4 +32,4 @@ const PlaygroundDetails = (props) => {
 
 };
 
-export default PlaygroundDetails;
+export default PlaygroundCardStructure;
