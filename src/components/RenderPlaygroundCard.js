@@ -12,7 +12,7 @@ import './renderPlaygroundCard.css';
 
 const RenderPlaygroundCard = (props) => {
     return (
-        <div className="card-list">
+        <div>
             {props.children}
         </div>
     );
