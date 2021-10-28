@@ -1,12 +1,12 @@
 
-.container {
-    width: 350px;
-    grid-template-columns: repeat(auto-fill, 200px);
-}
+
 
 .render-cards {
-    width: 350px;
-    grid-template-columns: repeat(auto-fill, 100px);
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+
 }
 
 .title {
