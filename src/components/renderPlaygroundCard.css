@@ -1,0 +1,18 @@
+
+
+
+.render-cards {
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 80px;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.location {
+    text-align: center;
+}
