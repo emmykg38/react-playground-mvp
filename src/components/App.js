@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PlaygroundCardStructure from './PlaygroundCardStructure';
-import RenderPlaygroundCard from './RenderPlaygroundCard';
 import Navigation from '../Navigation';
 import { Navbar } from 'react-bootstrap';
 import { Stack } from 'react-bootstrap';
+import CardItem from './CardItem';
+import AllCards from './AllCards';
 
 
 
@@ -16,35 +16,25 @@ const creveCouerLakeLink = "https://www.google.com/maps/place/Creve+Coeur+Lake/@
 const deerCreekParkLink= "https://goo.gl/maps/urcHkYBxf8v3CTqR9";
 
 
-// was in div under navigation
-// style= {{ display: "inline-flex" }}
+
+//figure out way to take in props as argument to display the cards
+
 
 class App extends React.Component {
     render () {
         return (
             <div>
+                <div>
                 <Navigation />
+
+                </div>
                 <div className="render-cards">
-                    {/* <Stack direction = "horizontal" gap={2}> */}
-                <div>
-                    <RenderPlaygroundCard>
-                        <PlaygroundCardStructure
-                        />
-                    </RenderPlaygroundCard>
-                </div>
-                <div>
-                    <RenderPlaygroundCard>
-                        <PlaygroundCardStructure
-                        />
-                    </RenderPlaygroundCard>
-                </div>
-                <div>
-                    <RenderPlaygroundCard>
-                        <PlaygroundCardStructure
-                        /> 
-                        </RenderPlaygroundCard>
-                </div>
-                {/* </Stack> */}
+                    <div>
+                        <AllCards>
+                            <CardItem
+                            />
+                        </AllCards>
+                    </div>
                 </div>
             </div>
     
@@ -53,6 +43,15 @@ class App extends React.Component {
 
 
     };
+};
+
+
+const RenderPlaygroundCard = (props) => {
+    return (
+        <div>
+            {props.children}
+        </div>
+    );
 };
 
 

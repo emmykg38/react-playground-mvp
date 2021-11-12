@@ -7,7 +7,7 @@ import './CardItem';
 
 
 
-
+//needs to iterate through 
 const AllCards = () => {
     return (
 
