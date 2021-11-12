@@ -29,45 +29,18 @@ class App extends React.Component {
                 <div>
                     <RenderPlaygroundCard>
                         <PlaygroundCardStructure
-                            playgroundImg = "/images/tillesplayground.jpg"
-                            name="Tilles Park"
-                            location="Hampton and Fyler Avenues"
-                            neighborhood="North Hampton neighborhood in St. Louis, MO"
-                            listItemOne="Shady playground area"
-                            listItemTwo="Splashpad in the summer"
-                            listItemThree="Bathrooms nearby"
-                            linkText= "Get directions to Tilles Park"
-                            link = {tillesMapLink}
                         />
                     </RenderPlaygroundCard>
                 </div>
                 <div>
                     <RenderPlaygroundCard>
                         <PlaygroundCardStructure
-                            playgroundImg = "/images/cclakeupper.jpg"
-                            name="Creve Couer Lake Memorial Park"
-                            location="13725 Marine Ave."
-                            neighborhood="Creve Couer, MO"
-                            listItemOne="Sprawling lake with water activities"
-                            listItemTwo="Ropes course for older children"
-                            listItemThree="Four playgrounds on-site"
-                            linkText="Get directions to Creve Couer Lake"
-                            link = {creveCouerLakeLink}
                         />
                     </RenderPlaygroundCard>
                 </div>
                 <div>
                     <RenderPlaygroundCard>
                         <PlaygroundCardStructure
-                            playgroundImg="/images/rocketplay3.jpg"
-                            name="Deer Creek Park Playground"
-                            location="3200 Laclede Station Rd."
-                            neighborhood="St. Louis County/ Maplewood"
-                            listItemOne='Known as "Rocket Playground"'
-                            listItemTwo="Ample ladders and climbing equipment"
-                            listItemThree="Geared towards older children."
-                            linkText="Get directions to Deer Creek Park"
-                            link= {deerCreekParkLink}
                         /> 
                         </RenderPlaygroundCard>
                 </div>
